@@ -66,20 +66,19 @@ Optimizing wall thickness is crucial for balancing structural integrity, printab
 
 The code snippet you provided outlines the structure of a triangle in an STL (STereoLithography) file, which is a common file format used for 3D printing. Each triangle represents a facet of the 3D model. Here's a breakdown of the code:
 
-    Facet normal ni nj nk: This line specifies the normal vector of the facet, where "ni," "nj," and "nk" are the x, y, and z components of the normal vector, respectively. The normal vector defines the orientation of the triangle's surface.
+"Facet normal ni nj nk": This line specifies the normal vector of the facet, where "ni," "nj," and "nk" are the x, y, and z components of the normal vector, respectively. The normal vector defines the orientation of the triangle's surface.
 
-    Outer loop: This line indicates the start of the loop that defines the vertices of the triangle.
+"Outer loop": This line indicates the start of the loop that defines the vertices of the triangle.
 
-    Vertex v1x v1y v1z: This line specifies the coordinates of the first vertex of the triangle, where "v1x," "v1y," and "v1z" are the x, y, and z coordinates, respectively.
+"Vertex v1x v1y v1z": This line specifies the coordinates of the first vertex of the triangle, where "v1x," "v1y," and "v1z" are the x, y, and z coordinates, respectively.
 
-    Vertex v2x v2y v2z: This line specifies the coordinates of the second vertex of the triangle, similar to the previous line.
+"Vertex v2x v2y v2z": This line specifies the coordinates of the second vertex of the triangle, similar to the previous line.
 
-    Vertex v3x v3y v3z: This line specifies the coordinates of the third vertex of the triangle, following the same pattern as the previous lines.
+"Vertex v3x v3y v3z": This line specifies the coordinates of the third vertex of the triangle, following the same pattern as the previous lines.
 
-    End loop: This line marks the end of the loop that defines the vertices of the triangle.
+"End loop": This line marks the end of the loop that defines the vertices of the triangle.
 
-    End facet: This line signifies the end of the triangle or facet definition.
-
+"End facet": This line signifies the end of the triangle or facet definition.
 ### step 3:
 
 
